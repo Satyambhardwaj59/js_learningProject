@@ -12,6 +12,7 @@ for ( list of lists ){
         rightBox.addEventListener("drop", function(e){
             rightBox.appendChild(selected);
             selected = null;
+
         });
         leftBox.addEventListener("dragover", function(e){
             e.preventDefault();
